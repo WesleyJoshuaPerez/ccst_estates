@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --bg-color: #081b29;
+    --main-color: #00abf0;
+    --text-color: #333;
+    --second-text-color: #555;
+    --white-color: #fff;
+    --cover-color: linear-gradient(45deg, rgb(155, 99, 84), rgb(115, 99, 84));
+    --pages-color: linear-gradient(90deg, #fff, #ddd);
+    --border: .125rem solid #00abf0;
+    --box-shadow: 0 0 .6rem rgba(0, 0, 0, .2);
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(203, 179, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: var(--text-color);
+}
+h2{
+    margin: 0;
+    position: absolute;
+    top: 900px;
+    left: 100px;
+    color: rgb(202, 180, 139);
+}
+
+
+
+/* Main Menu */
+.whitepanel{
+    margin: 0;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.goback {
+    margin: 0;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    text-decoration: none;
+    color: rgb(155, 99, 84);
+    font-size: 25px;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.goback::after {
+    content: '';
+    width: 0px;
+    height: 3px;
+    background: rgb(155, 99, 84);
+    display: block;
+    margin: auto;
+    transition: .3s;
+}
+.goback:hover::after {
+    width: 90px;
+}
+.logo_name {
+    margin: 0;
+    position: absolute;
+    top: 11px;
+    left: 1250px;
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    color: rgb(115, 99, 84);
+}
+span {
+    color: rgb(202, 180, 139);
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.logo {
+    margin: 0;
+    position: absolute;
+    top: 8px;
+    left: 1170px;
+}
+
+
+
+/* About Us Book*/
+.wrapper{
+    margin-top: 10rem;
+    position: relative;
+    width: 66rem;
+    height: 45rem;
+    padding: 2rem;
+    animation: show-animate 2s forwards;
+}
+@keyframes show-animate{
+    0%,30% {
+        opacity: 0;
+        transform: rotate(-20deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+}
+.cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: var(--cover-color);
+    box-shadow: var(--box-shadow);
+    border-top-left-radius: .6rem;
+    border-bottom-left-radius: .6rem;
+    transform-origin: right;
+}
+.cover.cover-left{
+    z-index: -1;
+}
+.cover.cover-right{
+    z-index: 100;
+    transition: transform 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.cover.cover-right.turn{
+    transform: rotateY(180deg);
+}
+.book{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    perspective: 250rem;
+}
+.book .book-page{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: var(--pages-color);
+    box-shadow: 0 0 .6rem rgba(0, 0, 0, .1);
+    display: flex;
+    padding: 2rem;
+} 
+.book-page.page-left{
+    box-shadow: -.6rem .6rem .6rem rgba(0, 0, 0, .1);
+}
+.profile-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page-front{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.motto{
+    font-size: 1.1rem;
+    font-style: italic;
+    color: rgb(155, 99, 84);
+    text-align: center;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    font-family: "Della Respira", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.page-back{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ccst-logo{
+    align-items: center;
+    width: 27rem;
+    height: 15rem;
+    margin-bottom: 1rem;
+}
+.member{
+    max-width: 200px;
+    border-radius: 50%;
+    border: .25rem solid rgb(202, 180, 139);
+    margin-bottom: .8rem;
+}
+h1{
+    font-size: 1.9rem;
+    line-height: 1;
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(115, 99, 84);
+}
+h3{
+    font-size: 1.5rem;
+    color: var(--main-color);
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(202, 180, 139);
+}
+.socmed{
+    margin: .6rem 0 .8rem;
+}
+.socmed a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    border: rgb(139, 143, 202);
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: rgb(202, 180, 139);
+    margin: 0 .2rem;
+    transition: .5s;
+}
+.socmed a:hover{
+    background: rgb(202, 180, 139);
+    color: white;
+}
+p{
+    text-align: justify;
+    font-size: 17px;
+    font-family: "Della Respira", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(115, 99, 84);
+}
+.book-page.page-right {
+    position: absolute;
+    right: 0;
+    transform-style: preserve-3d;
+    transform-origin: left;
+    transition: transform 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.book-page.page-right.turn{
+    transform: rotateY(-180deg);
+}
+.book-page .page-front,
+.book-page .page-back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--pages-color);
+    padding: 1.5rem 2.5rem;
+}
+.book-page .page-front{
+    transform: rotateY(0deg) translateZ(1px);
+}
+.book-page .page-back{
+    transform: rotateY(180deg) translateZ(1px);
+}
+.number-page{
+    position: absolute;
+    bottom: 1.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(115, 99, 84);
+}
+.nextprev-btn{
+    position: absolute;
+    bottom: .9rem;
+    right: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+    color: rgb(115, 99, 84);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+.nextprev-btn:hover{
+    color: rgb(202, 180, 139);
+}
+.nextprev-btn.back{
+    left: 1.5rem;
+}
+.back-first{
+    position: absolute;
+    bottom: 1.2rem;
+    right: 2rem;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: var(--pages-color);;
+    border-radius: .3rem;
+    font-size: 1.1rem;
+    color: rgb(115, 99, 84);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+.back-first:hover{
+    background: rgb(115, 99, 84);
+    color: var(--white-color);
+}
+.back-first p{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(.5);
+    font-size: 1rem;
+    color: rgb(115, 99, 84);
+    opacity: 0;
+    transition: .5s;
+}
+.back-first:hover p{
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+    top: -1.8rem;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+iframe{
+    margin-top: 1rem;
+    border-radius: 10%;
+}
+.loctitle{
+    text-align: center;
+    color: rgb(115, 99, 84);
+}
+.ccst-name{
+    text-align: center;
+    font-size: 4.3rem;
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(115, 99, 84);
+}
+.ccst-desc{
+    margin-top: .7rem;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-family: "Della Respira", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(115, 99, 84);
+}

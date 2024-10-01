@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+    <link rel="stylesheet" href="info_ccst-estates_style.css">
+    <script src="information.js" defer></script>
+    <!--Font 1 - Sedan SC-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sedan+SC&display=swap" rel="stylesheet">
+    <!--Font 2 - IM Fell English SC-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IM+Fell+English:ital@0;1&family=Sedan+SC&display=swap"
+        rel="stylesheet">
+    <!--Font 3 - Della Respira-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Della+Respira&family=IM+Fell+English:ital@0;1&family=Sedan+SC&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--Main Menu-->
+    <img src="images/whitepanel.jpg" alt="white" height="85" width="1900" class="whitepanel">
+    <a href="home_ccst-estates.html" class="goback"><b>Go Back</b></a>
+    <img src="images/ccstestates_logo_clear.png" alt="logo" height="45" width="75" class="logo">
+    <h1 class="logo_name">CCST <span>Estates</span></h1>
+
+    <!--Container for searchbox-->
+    <div class="searchboxcontainer">
+        <form id="searchForm" onsubmit="submitSearchForm(); return false;">
+            <input type="text" id="search" name="search" required>
+            <button type="submit" id="searchButton">SEARCH</button>
+        </form>
+    </div>
+    
+    <!--Use as container to style button that contains the event for activating the JavaScript-->
+    <div class="container1">
+        <button id="btimage1" type="button" onclick="handleButtonClick(0, 'btimage1')"> </button>
+        <button id="btimage2" type="button" onclick="handleButtonClick(1, 'btimage2')"></button>
+        <button id="btimage3" type="button" onclick="handleButtonClick(2, 'btimage3')"></button>
+        <button id="btimage4" type="button" onclick="handleButtonClick(3, 'btimage4')"></button>
+        <button id="btimage5" type="button" onclick="handleButtonClick(4, 'btimage5')"></button>
+    </div>
+    <div class="container2">
+        <button id="btimage6" type="button" onclick="handleButtonClick(5, 'btimage6')"></button>
+        <button id="btimage7" type="button" onclick="handleButtonClick(6, 'btimage7')"></button>
+        <button id="btimage8" type="button" onclick="handleButtonClick(7, 'btimage8')"></button>
+        <button id="btimage9" type="button" onclick="handleButtonClick(8, 'btimage9')"></button>
+        <button id="btimage10" type="button" onclick="handleButtonClick(9, 'btimage10')"></button>
+    </div>
+    <div class="tablecontainer">
+        <table id="realestateinfo"></table>
+    </div>
+</body>
+
+</html>
