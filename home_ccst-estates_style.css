@@ -1,0 +1,564 @@
+body{
+    overflow-x: hidden;
+}
+.background{
+    margin: 0;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+
+
+/* Main Menu */
+.logo{
+    margin: 0;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    border-radius: 10px;
+}
+.whitepanel{
+    margin: 0;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+}
+.menu{
+    font-size: 25px;
+}
+.gallery{
+    margin: 0;
+    position: absolute;
+    top: 16px;
+    left: 1020px;
+    text-decoration: none;
+    color: rgb(155, 99 , 84);
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.info{
+    margin: 0;
+    position: absolute;
+    top: 16px;
+    left: 1180px;
+    text-decoration: none;
+    color: rgb(155, 99 , 84);
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.aboutus{
+    margin: 0;
+    position: absolute;
+    top: 16px;
+    left: 1390px;
+    text-decoration: none;
+    color: rgb(155, 99 , 84);
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.info::after, .gallery::after, .aboutus::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background: rgb(155, 99 , 84);
+    display: block;
+    margin: auto;
+    transition: .3s;
+}
+.info:hover::after{
+    width: 150px;
+}
+.gallery:hover::after{
+    width: 100px;
+}
+.aboutus:hover::after{
+    width: 113px;
+}
+#signup{
+    margin: 0;
+    position: absolute;
+    top: 7px;
+    left: 750px;
+    font-size: 25px;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: italic;
+    border-radius: 10px;
+    border: 5px solid white;
+    color: rgb(155, 99 , 84);
+    background-color: white;
+    padding: 8px 8px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color -1s ease-in-out;
+}
+#signup:hover{
+    background-color: rgb(155, 99 , 84);
+    color: white;
+}
+#login{
+    margin: 0;
+    position: absolute;
+    top: 7px;
+    left: 650px;
+    font-size: 25px;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: italic;
+    border-radius: 10px;
+    border: 5px solid white;
+    color: rgb(155, 99 , 84);
+    background-color: white;
+    padding: 8px 8px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color -1s ease-in-out;
+}
+#login:hover{
+    background-color: rgb(155, 99 , 84);
+    color: white;
+}
+.search_bar{
+    margin: 0;
+    position: absolute;
+    top: 6px;
+    left: 140px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: white;
+}
+.search_input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    flex-grow: 1;
+    font-size: 18px;
+    font-family: "Della Respira", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.search_button {
+    border: none;
+    background-color: rgb(115, 99, 84);
+    color: white;
+    padding: 10px 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.search_button:hover {
+    background-color: rgb(155, 99 , 84);
+}
+
+
+
+
+/* First Section */
+.h1pt1{
+    margin: 0;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 185px;
+    color: white;
+}
+.h1pt2{
+    margin: 0;
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: white;
+}
+.motto{
+    margin: 0;
+    position: absolute;
+    top: 370px;
+    left: 30px;
+    font-family: "Della Respira", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 21px;
+    color: white;
+}
+.ext1{
+    margin: 0;
+    position: absolute;
+    top: 110px;
+    left: 1115px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+}
+.ext2{
+    margin: 0;
+    position: absolute;
+    top: 420px;
+    left: -30px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+}
+.int1{
+    margin: 0;
+    position: absolute;
+    top: 110px;
+    left: 640px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+}
+
+
+
+/* Second Section */
+.lily{
+    margin: 0;
+    position: absolute;
+    top: 770px;
+    left: 900px;
+    border-radius: 20px;
+}
+.descrip{
+    margin: 0;
+    position: absolute;
+    top: 800px;
+    left: 640px;
+    border-radius: 10px;
+    border: 5px solid rgb(115, 99, 84);
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+}
+.intro{
+    margin: 0;
+    position: absolute;
+    top: 810px;
+    left: 660px;
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style:italic;
+    font-size: 60px;
+    color: rgb(115, 99, 84);
+    z-index: 2;
+}
+.intro2{
+    margin: 0;
+    position: absolute;
+    top: 930px;
+    left: 630px;
+    right: 190px;
+    text-align: right;
+    font-family: "Della Respira", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 23px;
+    color: rgb(115, 99, 84);
+    z-index: 2;
+}
+.lily2{
+    margin: 0px;
+    position: absolute;
+    top: 900px;
+    left: -380px;
+    border-radius: 20px;
+}
+#testi{
+    margin: 0;
+    position: absolute;
+    top: 800px;
+    left: 130px;
+    font-size: 50px;
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: italic;
+    border-radius: 10px;
+    border: 5px solid rgb(151, 148, 143);
+    color: rgb(151, 148, 143);
+    background-color: white;
+    padding: 7px 20px;
+    display: inline-block;
+    transition: background-color 1s ease-in-out, border 1s ease-in-out .3s;
+}
+#testi:hover{
+    background-color: rgb(151, 148, 143);
+    border: 5px solid white;
+    color: white;
+}
+.testimonials{
+    margin: 0;
+    position: absolute;
+    top: 930px;
+    left: 130px;
+    background-color: white;
+    padding: 10px 10px;
+    z-index: 2;
+    border-radius: 10px;
+    border: 5px solid rgb(151, 148, 143);
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+    color: rgb(151, 148, 143)
+}
+.client1, .client2{
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34px;
+}
+.client1rev, .client2rev{
+    font-family: "Della Respira", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+}
+.client1, .client2 {
+    margin-bottom: 5px; 
+}
+
+.client1rev, .client2rev {
+    margin-top: 5px;
+}
+.client1{
+    margin-top: 5px;
+}
+
+
+
+/* Third Part */
+.interior{
+    margin: 0;
+    position: absolute;
+    top: 1250px;
+    left: 1130px;
+    font-size: 110px;
+    color: white;
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+    margin-right: 40px;
+}
+.intcol1{
+    margin: 0;
+    position: absolute;
+    top: 1270px;
+    left: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.intcol2{
+    margin: 0;
+    position: absolute;
+    top: 1370px;
+    left: 290px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.intcol3{
+    margin: 0;
+    position: absolute;
+    top: 1270px;
+    left: 550px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.intcol4{
+    margin: 0;
+    position: absolute;
+    top: 1370px;
+    left: 810px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+
+
+/* Fourth Section */
+.white_bottom{
+    margin: 0;
+    position: absolute;
+    top: 1800px;
+    left: 560px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+}
+.logo_bottom{
+    margin: 0;
+    position: absolute;
+    top: 1810px;
+    left: 570px;
+}
+.name_bottom{
+    margin: 0;
+    position: absolute;
+    top: 1811px;
+    left: 665px;
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: rgb(115, 99, 84);
+}
+span{
+    color: rgb(202, 180, 139);
+}
+.copyright_bottom{
+    margin: 0;
+    position: absolute;
+    top: 1900px;
+    left: 595px;
+    color: white;
+    font-family: "Della Respira", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+.set1, .set2{
+    font-size: 25px;
+}
+.feedback{
+    margin: 0;
+    position: absolute;
+    top: 1790px;
+    left: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: "Sedan SC", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.cont{
+    margin: 0;
+    position: absolute;
+    top: 1830px;
+    left: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: "Sedan SC", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.privacy{
+    margin: 0;
+    position: absolute;
+    top: 1870px;
+    left: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: "Sedan SC", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.termscon{
+    margin: 0;
+    position: absolute;
+    top: 1910px;
+    left: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: "Sedan SC", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.feedback::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: .3s;
+}
+.cont::after, .privacy::after, .termscon::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: .3s;
+}
+.feedback:hover::after{
+    width: 110px;
+}
+.cont:hover::after{
+    width: 100px;
+}
+.privacy:hover::after{
+    width: 90px;
+}
+.termscon:hover::after{
+    width: 260px;
+}
+.set2text{
+    margin: 0;
+    position: absolute;
+    top: 1790px;
+    left: 1360px;
+    text-decoration: none;
+    color: white;
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+}
+.fb{
+    margin: 0;
+    position: absolute;
+    top: 1830px;
+    left: 1380px;
+    text-decoration: none;
+    color: white;
+    font-family: "Sedan SC", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.ig{
+    margin: 0;
+    position: absolute;
+    top: 1870px;
+    left: 1375px;
+    text-decoration: none;
+    color: white;
+    font-family: "Sedan SC", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.x{
+    margin: 0;
+    position: absolute;
+    top: 1910px;
+    left: 1350px;
+    text-decoration: none;
+    color: white;
+    font-family: "Sedan SC", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.fb::after, .ig::after, .x::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: .3s;
+}
+.fb:hover::after{
+    width: 110px;
+}
+.ig:hover::after{
+    width: 120px;
+}
+.x:hover::after{
+    width: 140px;
+}

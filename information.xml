@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REALESTATELIST>
+  <PROPERTY>
+    <TITLE>Mia</TITLE>
+    <DESCRIPTION>This cozy abode has three bedrooms with a spacious kitchen.</DESCRIPTION>
+    <TYPE>House</TYPE>
+    <PRICE>₱14,500,000</PRICE>
+  </PROPERTY>
+  <PROPERTY>
+    <TITLE>Layla</TITLE>
+    <DESCRIPTION>This elegant home has a unique terrace overlooking the whole neighborhood.</DESCRIPTION>
+    <TYPE>House</TYPE>
+    <PRICE>₱26,400,000</PRICE>
+  </PROPERTY>
+  <PROPERTY>
+    <TITLE>Diana</TITLE>
+    <DESCRIPTION>This eye-catching abode has a wide backyard perfect for little kids to frolic.</DESCRIPTION>
+    <TYPE>House</TYPE>
+    <PRICE>₱28,500,000</PRICE>
+  </PROPERTY>
+  <PROPERTY>
+    <TITLE>Maria</TITLE>
+    <DESCRIPTION>This neat-looking home is perfect for someone young and enjoys the comfort of their companies a little too much.</DESCRIPTION>
+    <TYPE>House</TYPE>
+    <PRICE>₱30,900,000</PRICE>
+  </PROPERTY>
+  <PROPERTY>
+    <TITLE>Ella</TITLE>
+    <DESCRIPTION>This glamorous abode is perfect for people with minimalist tastes with an huge area for hanging out with friends.</DESCRIPTION>
+    <TYPE>House</TYPE>
+    <PRICE>₱37,900,000</PRICE>
+  </PROPERTY>
+  <PROPERTY>
+    <TITLE>Sheena</TITLE>
+    <DESCRIPTION>This modern home is perfect for a big family carrying inside five bedrooms and three comfort rooms.</DESCRIPTION>
+    <TYPE>House</TYPE>
+    <PRICE>₱32,500,000</PRICE>
+  </PROPERTY>
+  <PROPERTY>
+    <TITLE>Katrina</TITLE>
+    <DESCRIPTION>This captivating three-bedroom home has a unique pool at the backyard with an additional jacuzzi.</DESCRIPTION>
+    <TYPE>House</TYPE>
+    <PRICE>₱18,500,000</PRICE>
+  </PROPERTY>
+  <PROPERTY>
+    <TITLE>Mika</TITLE>
+    <DESCRIPTION>Inspired by Japanese architecture, this picturesque home has a wonderful greenhouse perfect for people with a green thumb.</DESCRIPTION>
+    <TYPE>House</TYPE>
+    <PRICE>₱10,800,000</PRICE>
+  </PROPERTY>
+  <PROPERTY>
+    <TITLE>Olivia</TITLE>
+    <DESCRIPTION>This gigantic home has seven bedrooms, a billiard table, a basketball court and a mini pool perfect for a big family.</DESCRIPTION>
+    <TYPE>House</TYPE>
+    <PRICE>₱31,200,000</PRICE>
+  </PROPERTY>
+  <PROPERTY>
+    <TITLE>Joana</TITLE>
+    <DESCRIPTION>This luxurious home has a unique at-home cinema room fit for cinephiles, in addition with a wide kitchen.</DESCRIPTION>
+    <TYPE>House</TYPE>
+    <PRICE>₱35,500,000</PRICE>
+  </PROPERTY>
+</REALESTATELIST>
